@@ -80,7 +80,7 @@ Create a `.env` file based on `.env.example`:
 
 ```env
 MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-host>/satellite_telemetry?retryWrites=true&w=majority
-DATABASE_NAME=satellite_telemetry
+DB_NAME=satellite_telemetry
 LOG_LEVEL=INFO
 ```
 
@@ -245,7 +245,7 @@ Create a `.env` file:
 
 ```env
 MONGODB_URI=your-mongodb-connection-string
-DATABASE_NAME=satellite_telemetry
+DB_NAME=satellite_telemetry
 LOG_LEVEL=INFO
 ```
 

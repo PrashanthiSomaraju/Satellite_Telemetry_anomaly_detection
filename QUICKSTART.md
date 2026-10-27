@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Create `.env` file in the project root:
 ```env
 MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-host>/satellite_telemetry?retryWrites=true&w=majority
-DATABASE_NAME=satellite_telemetry
+DB_NAME=satellite_telemetry
 LOG_LEVEL=INFO
 ```
 
